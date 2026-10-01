@@ -11,3 +11,11 @@ def convert_temperature(temperature, unit):
 temperature = float(input("Enter temperature: "))
 unit = input("Enter unit (C/F): ").upper()
 
+result = convert_temperature(temperature, unit)
+
+if unit == "C":
+    print("Temperature in Fahrenheit:", result)
+elif unit == "F":
+    print("Temperature in Celsius:", result)
+else:
+    print(result)
