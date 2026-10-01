@@ -7,3 +7,7 @@ def convert_temperature(temperature, unit):
         return celsius
     else:
         return "Invalid unit"
+
+temperature = float(input("Enter temperature: "))
+unit = input("Enter unit (C/F): ").upper()
+
